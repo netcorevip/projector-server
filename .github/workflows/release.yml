@@ -1,9 +1,10 @@
 name: Upload Release Asset
 
-on:
-  push:
-    tags:
-      - "v*"
+# on:
+#   push:
+#     tags:
+#       - "v*"
+on: workflow_dispatch
 
 jobs:
   main:
